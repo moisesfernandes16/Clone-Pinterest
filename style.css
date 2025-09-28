@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    max-height: 612px;
+    max-width: 412px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#fotosInicial {
+    width: 100%;
+    box-shadow: color(white) 2px;
+
+
+}
+
+#Logo {
+    width: 150px;
+    position: absolute;
+    top: 200px;
+
+}
+
+#btnsInicial {
+    width: 250px;
+    height: 240px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    height: 29px;
+    width: 290px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.btnEntrar {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    height: 29px;
+    width: 290px;
+
+}
+
+.btnEntrar:active {
+    color: white;
+    transition-delay: 0.1ms;
+    background-color: rgba(123, 37, 37, 0.939);
+
+}
+
+.btnCadastro {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btnCadastro:active {
+    background-color: rgba(108, 105, 105, 0.303);
+    color: black;
+}
+
+#logoGoogle,
+#logoFacebook {
+    width: 17px;
+
+}
+
+.btnContaGoogle {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btnFacebook {
+    background-color: #1877F2;
+}
+
+.btnFacebook:active {
+    background-color: #2a5fa3;
+}
+
+.btnContaGoogle:active {
+    background-color: rgba(80, 58, 58, 0.797);
+}
+
+#logoFacebook {
+    width: 17px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#fotoIlustração {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotoInferior {
+    width: 412px;
+    box-shadow: color(white) 2px;
+    margin-top: 50px;
+    
+}
+
